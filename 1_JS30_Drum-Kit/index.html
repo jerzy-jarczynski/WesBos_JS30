@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Tektur:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="title">
+      <h1>WesBos JavaScript30</h1>
+      <h2>Drum Kit</h2>
+    </div>
+    <div class="keys">
+      <div class="key">
+        <div data-key="65" class="key-content">
+          <kbd>A</kbd>
+          <span class="instrument">clap</span>
+        </div>
+      </div>
+      <div class="key">
+        <div data-key="83" class="key-content">
+          <kbd>S</kbd>
+          <span class="instrument">hihat</span>
+        </div>
+      </div>
+      <div class="key">
+        <div data-key="68" class="key-content">
+          <kbd>D</kbd>
+          <span class="instrument">kick</span>
+        </div>
+      </div>
+      <div class="key">
+        <div data-key="70" class="key-content">
+          <kbd>F</kbd>
+          <span class="instrument">openhat</span>
+        </div>
+      </div>
+      <div class="key">
+        <div data-key="71" class="key-content">
+          <kbd>G</kbd>
+          <span class="instrument">boom</span>
+        </div>
+      </div>
+      <div class="key">
+        <div data-key="72" class="key-content">
+          <kbd>H</kbd>
+          <span class="instrument">ride</span>
+        </div>
+      </div>
+      <div class="key">
+        <div data-key="74" class="key-content">
+          <kbd>J</kbd>
+          <span class="instrument">snare</span>
+        </div>
+      </div>
+      <div class="key">
+        <div data-key="75" class="key-content">
+          <kbd>K</kbd>
+          <span class="instrument">tom</span>
+        </div>
+      </div>
+      <div class="key">
+        <div data-key="76" class="key-content">
+          <kbd>L</kbd>
+          <span class="instrument">tink</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <audio data-key="65" src="./assets/audio/clap.wav"></audio>
+  <audio data-key="83" src="./assets/audio/hihat.wav"></audio>
+  <audio data-key="68" src="./assets/audio/kick.wav"></audio>
+  <audio data-key="70" src="./assets/audio/openhat.wav"></audio>
+  <audio data-key="71" src="./assets/audio/boom.wav"></audio>
+  <audio data-key="72" src="./assets/audio/ride.wav"></audio>
+  <audio data-key="74" src="./assets/audio/snare.wav"></audio>
+  <audio data-key="75" src="./assets/audio/tom.wav"></audio>
+  <audio data-key="76" src="./assets/audio/tink.wav"></audio>
+
+  <script src="./script.js"></script>
+</body>
+</html>
